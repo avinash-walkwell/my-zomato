@@ -1,6 +1,6 @@
 <h1 align="center">
   <!-- Logo -->
-  ![my-zomato](https://github.com/avinash-walkwell/my-zomato/blob/master/src/logo.svg)
+  ![my-zomato](/src/logo.svg)
   <br/>
   @MyZomato
   <br/>
