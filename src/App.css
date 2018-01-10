@@ -17,6 +17,24 @@
   height: 50px;
 }
 
+<<<<<<< HEAD
+.App-detail {
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+}
+
+.App-detail > img {
+  float: left;
+  width: 50%;
+}
+
+.App-detail > section {
+  float: right;
+  width: 50%;
+}
+
+=======
+>>>>>>> cfe7b60ade00d56efd78c19cf5178bef41cb9406
 .App-header {
   grid-column: 1 / 4;
   grid-row: 1;
