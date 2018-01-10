@@ -1,6 +1,6 @@
 <h1 align="center">
   <!-- Logo -->
-  ![my-zomato](./src/logo.svg)
+  ![my-zomato](src/pic8.jpeg)
   <br/>
   @MyZomato
   <br/>
@@ -9,14 +9,12 @@
   </div>
 </h1>
 
-Universal React rendering middleware for [Rill](https://github.com/rill-js/rill).
-
-This middleware depends on React@16 for async rendering. If you would like to use older versions of react try using @rill/react@5 and below.
+Front end started with pure css grid system and made layout structure for as required. For grid refrence [css grid](https://www.w3schools.com/css/css_grid.asp)
 
 # Installation
 
 ```console
-npm install @rill/react
+git clone https://github.com/avinash-walkwell/my-zomato.git
 ```
 
 # Example
