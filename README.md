@@ -1,6 +1,6 @@
 <h1 align="center">
   <!-- Logo -->
-  ![my-zomato](logo.svg)
+  ![my-zomato](src/logo.svg)
   <br/>
   @MyZomato
   <br/>
