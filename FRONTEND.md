@@ -40,14 +40,14 @@ Front end started with pure css grid system and made layout structure for as req
 }
 ```
 
+
+# Designing Components.
+To achieve the goal of designing component we used ui framework (css framework like bootstrap) [@Ant Design](https://ant.design/).
+
+
 # Installation
 
 ```console
 git clone https://github.com/avinash-walkwell/my-zomato.git
 ```
-
-
-
-# Designing Components.
-To achieve the goal of designing component we used ui framework (css framework like bootstrap) [@Ant Design](https://ant.design/).
 
