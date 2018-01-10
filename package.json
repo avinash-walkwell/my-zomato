@@ -1,0 +1,33 @@
+{
+  "name": "my-zomato",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.1.1",
+    "axios": "^0.17.1",
+    "babel-polyfill": "^6.7.4",
+    "babel-runtime": "^6.6.1",
+    "express": "^4.13.4",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-bootstrap-sweetalert": "^4.1.0",
+    "react-dom": "^16.2.0",
+    "react-facebook-login": "^3.7.0",
+    "react-redux": "^4.4.8",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-validation": "^3.0.7",
+    "redux": "^3.4.0",
+    "redux-logger": "^2.6.1",
+    "redux-promise-middleware": "^4.4.2",
+    "redux-thunk": "^2.2.0",
+    "thunk": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

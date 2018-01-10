@@ -1,0 +1,106 @@
+#root {
+  display: grid;
+  grid-template-columns: 1fr;
+  box-sizing: border-box;
+}
+
+.App-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  height: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-header > img {
+  float: left;
+}
+.App-header > nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header > nav > ul > li {
+  float: right;
+  padding: 20px 30px;
+}
+
+.App-hero {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  background-image: url('pic8.jpeg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  text-align: center;
+}
+
+.App-hero > h1 {
+  color: aliceblue;
+  padding: 20px 0 0;
+}
+
+.App-hero > p {
+  color: aliceblue;
+  padding: 20px;
+}
+
+.App-hero input[type="text"] {
+  margin: 0 auto;
+}
+
+.App-section {
+  grid-column: 1 / 4;
+  grid-row: 3 / 5;
+}
+
+.App-section > h1 {
+  text-align: center;
+  color: #61dafb;
+}
+
+.App-section > p {
+  text-align: center;
+  color: grey;
+}
+
+.App-section > ul {
+  column-count: 3;
+  list-style: none;
+  text-align: center;
+}
+
+.App-section > ul > li {
+  box-shadow: 0px 0px 102px 0px #73afbf82;
+}
+
+.App-section > ul > li > h2 {
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media only screen and (max-width: 500px) {
+  
+}
